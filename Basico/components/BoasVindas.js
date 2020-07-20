@@ -18,17 +18,16 @@ function BoasVindas(props) {
            [
                {text: 'ok' },
            ],
-       );       
-     }
- }
-}
+       );        
+      }     
+    }
 
  const _limpar = () => {
      setNome('');
      setSobrenome('');
      setMostraMensagem(false);
  }
-return (
+   return (
     <View style={styles.container}>
 
         <text style={styles.titulo}>indentifique-se</text>
@@ -68,7 +67,8 @@ return (
               /> 
           </View>
     </View>
-)
+  );
+}
 const styles = StyleSheet.create({
   container: {
      backgroundColor: '#081a31',
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
       marginBottom: 5,
       marginTop: 5,
       borderRadius: 5,
-      height: 35, 
+      height: 35,
   },
   botaoContainer: {
       marginBottom: 5,
@@ -104,6 +104,5 @@ const styles = StyleSheet.create({
   },
 
 });
-
 
 export default BoasVindas;

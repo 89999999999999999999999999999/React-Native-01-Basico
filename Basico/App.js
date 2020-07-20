@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
 import BoasVindas from './components/BoasVindas';
+import Calculos from './components/Calculos';
 
 export default class App extends Component{
   render(){
